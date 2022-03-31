@@ -1,6 +1,9 @@
+* {
+    box-sizing: border-box
+} 
+
 #nav-bar{
     height: 6vh;
-    /* background-color: red   ; */
     padding: 20px 0 0 20px;
 }
 
@@ -35,13 +38,85 @@
 .btn-defaults{
     padding: 20%;
     border-radius: 20px;
-    border: 10px solid red;
-    margin: 1px ;
-    width: 200px;
-
+    margin: 10px ;
+    min-width: max-content;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 19px;
+    box-shadow: 2px 2px 10px  #888888;
 }
 
 .infoData{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+
+#newText{
+    color: orangered;
+    font-size: 44px;
+    padding-top: 2px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#pendingText{
+    color: green;
+    font-size: 44px;
+    padding-top: 2px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.items_callback{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    height: 80px;
+    transition-property: all;
+    transition-duration: 0.1s;
+    font-size: 40px;
+    padding: 20px;
+    position: relative;
+    margin: 30px 0 30px 0;
+    color: rgb(68, 68, 68);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.items_callback::after{
+    content: "\f061";
+    position: absolute;
+    right: 2%;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+}
+.items_callback:hover{
+    cursor: grab
+}
+.items_callback:active{
+    background: #666666;
+    
+}
+#container{
+    padding: 10px;
+    margin: 10;
+    width: 100%;
+}
+
+.footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+   color: rgb(0, 0, 0);
+   text-align: center;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   height: 7vh;
+}
+
+.footer-items{
+    margin: 40%;
 }
