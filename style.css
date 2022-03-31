@@ -1,40 +1,33 @@
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
 } 
 
 #nav-bar{
     height: 6vh;
     padding: 20px 0 0 20px;
 }
-
-
-
 #setting-icon{
         height: 100%;
         width: auto;
 }
-
 #order-Data-container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-
 #sales-Text{
     font-size: 30px;
   
     font-family: 'Roboto', sans-serif;
     padding: 1%;
 }
-
 #sales-numerics{
     font-size: 40px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     padding: 1%;
 }
-
 .btn-defaults{
     padding: 20%;
     border-radius: 20px;
@@ -47,13 +40,11 @@
     font-size: 19px;
     box-shadow: 2px 2px 10px  #888888;
 }
-
 .infoData{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-
 #newText{
     color: orangered;
     font-size: 44px;
@@ -68,7 +59,6 @@
     font-weight: bold;
     font-family: sans-serif;
 }
-
 .items_callback{
     border: 1px solid black;
     border-radius: 10px;
@@ -84,7 +74,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .items_callback::after{
-    content: "\f061";
+    content: "\f054";
     position: absolute;
     right: 2%;
     font-weight: 900;
@@ -94,16 +84,15 @@
     cursor: grab
 }
 .items_callback:active{
-    background: #666666;
-    
+    background: #666666; 
 }
 #container{
     padding: 10px;
     margin: 10;
     width: 100%;
 }
-
 .footer{
+    padding: 1%;
    position: fixed;
    left: 0;
    bottom: 0;
@@ -114,9 +103,13 @@
    display: flex;
    flex-direction: row;
    justify-content: space-evenly;
-   height: 7vh;
+   height: 8vh;
 }
-
-.footer-items{
-    margin: 40%;
+.fa-solid{
+    font-size: 3vh;
+}
+#home-footer {
+    
+    border-bottom: 4px solid rgb(245, 130, 88);
+    width: 200px;
 }
