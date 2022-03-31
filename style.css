@@ -1,0 +1,47 @@
+#nav-bar{
+    height: 6vh;
+    /* background-color: red   ; */
+    padding: 20px 0 0 20px;
+}
+
+
+
+#setting-icon{
+        height: 100%;
+        width: auto;
+}
+
+#order-Data-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#sales-Text{
+    font-size: 30px;
+  
+    font-family: 'Roboto', sans-serif;
+    padding: 1%;
+}
+
+#sales-numerics{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    padding: 1%;
+}
+
+.btn-defaults{
+    padding: 20%;
+    border-radius: 20px;
+    border: 10px solid red;
+    margin: 1px ;
+    width: 200px;
+
+}
+
+.infoData{
+    display: flex;
+    flex-direction: row;
+}
