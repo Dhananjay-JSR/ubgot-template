@@ -7,8 +7,8 @@
     padding: 20px 0 0 20px;
 }
 #setting-icon{
-        height: 100%;
-        width: auto;
+    height: 100%;
+    width: auto;
 }
 #order-Data-container{
     display: flex;
@@ -18,7 +18,6 @@
 }
 #sales-Text{
     font-size: 30px;
-  
     font-family: 'Roboto', sans-serif;
     padding: 1%;
 }
